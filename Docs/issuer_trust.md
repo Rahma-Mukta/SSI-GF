@@ -34,7 +34,7 @@ This framework defines the following ways to identify a **Issuer** in a credenti
 Defines supporting credential holder's permissions. Retrieves data as a string list. 
 It can be one of the following items.
 - `patient_health_credential`: Can issue health related credential for associated patient
-- `consent_credential`: It is the permission to issue self-signed consent related to health
+- `consent_credential`: It is the permission to issue self-signed consent related to health. It is accompanied by [sample consent_credential](consent_credential.json)
 - `delegation_credential`: Being able to delegate the authority (for taking health related decision) to another person
 
 ## Constraints
