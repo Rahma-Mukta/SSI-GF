@@ -11,7 +11,7 @@ This framework is suitable for use by the entities certified by Policy Authortiy
 
 ## Metadata
 There must be certain metadata information in the supporting credentials to be given using this framework.
-* `type`: should be one of the following attributes: `OfficialIssuer-credential`,`ProxyIssuer-credential` and `SecondaryIssuer-credential`
+* `type`: should be one of the following attributes: `OfficialIssuer-credential`,`ProxyIssuer-credential` and `PersonalIssuer-credential`
 
 ## Rationales for Credential Type
 In this framework, type of credential is based on one or more of the following formally defined rationales:
@@ -47,10 +47,10 @@ An issuer's ability to control the holder may be constrained in the following wa
 It is strongly recommended that an audit trail be produced any time a issuer/holder performs any action.
 ### Audit
 It should be have following attributes:
-- `event_time`
-- `event_place`
+- `action_time`
+- `action_place`
 - `issuer`
 - `holder`
-- `event`
+- `action`
 - `justifying_permissions`
 - `proof`
