@@ -1,5 +1,5 @@
 # Issuer Trust Framework
-This document describes a sample trust framework for Credential Issuers. It is accompanied by [sample schemas](sample-schemas.md)
+This document describes a sample trust framework for Credential Issuers. It is accompanied by [sample credentials](\Docs)
 
 ## Name, Version, and Author
 - **Trust Framework Name:**  Issuer Trust Framework
@@ -15,9 +15,9 @@ There must be certain metadata information in the supporting credentials to be g
 
 ## Rationales for Credential Type
 In this framework, type of credential is based on one or more of the following formally defined rationales:
-* `OfficialIssuer-credential`: If the entity is receiving support directly from Accreditation Authority(AA), this should be chosen.
-* `ProxyIssuer-credential`: If the entity is receiving support from Official Issuer (OI) to issue credential on behalf of OI, this should be chosen.
-* `PersonalIssuer-credential`: If the entity is receiving support from Official/Proxy Issuer to issue self-signed credential, this should be chosen.
+* `OfficialIssuer-credential`: If the entity is receiving support directly from Accreditation Authority(AA), this should be chosen. It is accompanied by [sample OfficialIssuer_credential](Supporting_credential_official.json)
+* `ProxyIssuer-credential`: If the entity is receiving support from Official Issuer (OI) to issue credential on behalf of OI, this should be chosen. It is accompanied by [sample ProxyIssuer_credential](Supporting_credential_proxy.json)
+* `PersonalIssuer-credential`: If the entity is receiving support from Official/Proxy Issuer to issue self-signed credential, this should be chosen. It is accompanied by [sample PersonalIssuer_credential](Supporting_credential_personal.json)
 
 ## Identifying
 ### Holder
@@ -35,7 +35,7 @@ Defines supporting credential holder's permissions. Retrieves data as a string l
 It can be one of the following items.
 - `patient_health_credential`: Can issue health related credential for associated patient
 - `consent_credential`: It is the permission to issue self-signed consent related to health. It is accompanied by [sample consent_credential](consent_credential.json)
-- `delegation_credential`: Being able to delegate the authority (for taking health related decision) to another person
+- `delegation_credential`: Being able to delegate the authority (for taking health related decision) to another person. It is accompanied by [sample delegation_credential](delegation_credential.json)
 
 ## Constraints
 An issuer's ability to control the holder may be constrained in the following ways:
