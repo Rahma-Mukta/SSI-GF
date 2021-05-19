@@ -1,5 +1,5 @@
 # Issuer Trust Framework
-This document describes a sample trust framework for Credential Issuers. It is accompanied by [sample credentials](\Docs)
+This document describes a sample trust framework for Credential Issuers. It is accompanied by [sample credentials](\docs)
 
 ## Name, Version, and Author
 - **Trust Framework Name:**  Issuer Trust Framework
@@ -15,9 +15,9 @@ There must be certain metadata information in the supporting credentials to be g
 
 ## Rationales for Credential Type
 In this framework, type of credential is based on one or more of the following formally defined rationales:
-* `OfficialIssuer-credential`: If the entity is receiving support directly from Accreditation Authority(AA), this should be chosen. It is accompanied by [sample OfficialIssuer_credential](Supporting_credential_official.json)
-* `ProxyIssuer-credential`: If the entity is receiving support from Official Issuer (OI) to issue credential on behalf of OI, this should be chosen. It is accompanied by [sample ProxyIssuer_credential](Supporting_credential_proxy.json)
-* `PersonalIssuer-credential`: If the entity is receiving support from Official/Proxy Issuer to issue self-signed credential, this should be chosen. It is accompanied by [sample PersonalIssuer_credential](Supporting_credential_personal.json)
+* `OfficialIssuer-credential`: If the entity is receiving support directly from Accreditation Authority(AA), this should be chosen. It is accompanied by [sample OfficialIssuer_credential](supporting_credential_official.json)
+* `ProxyIssuer-credential`: If the entity is receiving support from Official Issuer (OI) to issue credential on behalf of OI, this should be chosen. It is accompanied by [sample ProxyIssuer_credential](supporting_credential_proxy.json)
+* `PersonalIssuer-credential`: If the entity is receiving support from Official/Proxy Issuer to issue self-signed credential, this should be chosen. It is accompanied by [sample PersonalIssuer_credential](supporting_credential_personal.json)
 
 ## Identifying
 ### Holder
