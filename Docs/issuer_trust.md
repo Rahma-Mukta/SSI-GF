@@ -1,5 +1,5 @@
 # Issuer Trust Framework
-This document describes a sample trust framework for Credential Issuers. It is accompanied by [sample credentials](\docs)
+This document describes a sample trust framework for Credential Issuers. It is accompanied by [sample credentials](/Docs)
 
 ## Name, Version, and Author
 - **Trust Framework Name:**  Issuer Trust Framework
