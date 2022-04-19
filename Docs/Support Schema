@@ -1,0 +1,29 @@
+{
+"Unique identification of schema structure": "medical-0001",
+"Credential type name": "SupportCredential",
+"Credential Schema Version": "0.1",
+"Description of Credential Schema": "Support credential, including detailed information such as Issuer DID, Subject DID, Consent, Permission",
+"Credential Schema Creation Time": "2022-01-18T19:05:22Z´,
+"Credential attribute collection": [
+{
+"Attribute name": "Issuer",
+"Type of attribute value": "String",
+"Property description": "Issuer DID"
+},
+{
+"Attribute name": "Subject",
+"Type of attribute value": "String",
+"Property description": "Subject DID"
+},
+{
+"Attribute name": "Duration",
+"Type of attribute value": "date-time",
+"Property description": ""
+},
+{
+"Attribute name": "",
+"Type of attribute value": "String",
+"Property description": ""
+},
+]
+}
